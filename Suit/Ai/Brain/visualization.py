@@ -1,6 +1,8 @@
 # visualization.py
 
 import networkx as nx
+import matplotlib
+matplotlib.use('Agg')  # Use the 'Agg' backend for non-interactive environments
 import matplotlib.pyplot as plt
 
 def add_edges(node, G):
@@ -20,4 +22,6 @@ def visualize_mind_map(mind_map):
     plt.figure(figsize=(12, 8))
     nx.draw(G, pos, with_labels=True, node_color="skyblue", node_size=3000, font_size=10, font_weight="bold", edge_color="gray")
     plt.title(f"Mind Map Visualization: {mind_map.name}")
+    
+    # Display the plot inline in Jupyter Notebook
     plt.show()

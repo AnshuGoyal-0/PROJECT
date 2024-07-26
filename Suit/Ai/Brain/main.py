@@ -14,12 +14,16 @@ family_info_map = MindMap("Family Information", "Stores family-related data")
 user_data = {'type': 'User Information', 'id': 'user1', 'name': 'John Doe', 'age': 30}
 family_data = {'type': 'Family Information', 'id': 'family1', 'members': ['John Doe', 'Jane Doe']}
 
+# Add your name data
+personal_info = {'type': 'User Information', 'id': 'anshu', 'name': 'Anshu Goyal'}
+
 # Categorize and store data
 mind_maps = {'User Information': user_info_map, 'Family Information': family_info_map}
 categorize_data(user_data, mind_maps)
 categorize_data(family_data, mind_maps)
+categorize_data(personal_info, mind_maps)
 
-# Link mind maps
+# Link mind maps (optional)
 link_mind_maps(user_info_map, family_info_map, 'user1', 'family1')
 
 # Create and visualize category map
