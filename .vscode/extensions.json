@@ -1,5 +1,14 @@
 {
     "recommendations": [
-        "souche.vscode-mindmap"
+        "souche.vscode-mindmap",
+        "cweijan.vscode-typora",
+        "ms-python.python",
+        "pkief.material-icon-theme",
+        "esbenp.prettier-vscode",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter",
+        "teabyii.ayu"
     ]
 }
